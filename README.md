@@ -1,6 +1,8 @@
-#Perl_Practice
+Perl_Practice
+=============
 
-##Perl practice programs
+Perl practice programs
+----------------------
 This is a collection of perl programs to try and help me learn Perl.
 When done it should contain
 
