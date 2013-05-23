@@ -2,7 +2,7 @@ Perl_Practice
 =============
 
 Perl practice programs
-----------------------
+______________________
 This is a collection of perl programs to try and help me learn Perl. When done it should contain
 
 -A basic calculator 
