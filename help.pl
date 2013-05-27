@@ -25,3 +25,5 @@ print "Last element added: ". $#nameArray ."\n";   #retruns index of last elemen
 print "Number of arguments given: ". @ARGV. "\n";  #prints how many arguments are given on running program
 
 print "Arguments given are: @ARGV\n";              #Prints all of the arguments given
+
+
