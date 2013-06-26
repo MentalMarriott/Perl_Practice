@@ -1,6 +1,6 @@
-#!/usr/bin/perl
-use strict;
-use warnings;
+#!/usr/bin/perl					#have these at the 
+use strict;					#start of each
+use warnings;					#script
 
 ##
 # Created by Christopher Marriott with help and examples from 
@@ -91,7 +91,11 @@ print $atomicWeights{"Helium"}."\n" ; # direct hash access
 print ${ $hashRef }{"Helium"}."\n";  # use a reference to get to the hash
 print $hashRef->{"Helium"}."\n";     # exactly the same thing - this is very common
 
+my @anonArray = [ "anon1", "anon2"]; 				#this is an anonymous array
 
+my %anonHash = {"peter" => "burke", "simon" => "lane", "bruce" => "'Im definately not the god damn Batman' wayne"}
+
+#print "anon array value 1: ".@anonArray[0]."\n anon hash value 1: ".%anonHash{"bruce"};			#the printed out value will be a reference to the anonymous data structure
 
 
 
