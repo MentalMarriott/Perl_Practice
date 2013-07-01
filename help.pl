@@ -97,6 +97,12 @@ my %anonHash = {"peter" => "burke", "simon" => "lane", "bruce" => "'Im definatel
 
 #print "anon array value 1: ".@anonArray[0]."\n anon hash value 1: ".%anonHash{"bruce"};			#the printed out value will be a reference to the anonymous data structure
 
+#this is a test to see why github isn't registering any changes
+my $value1 = 4;
+my $value2 = 5;
+my $answer = $value1 + $value2;
+
+print $answer . "\n"
 
 
 
