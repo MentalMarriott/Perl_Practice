@@ -91,7 +91,7 @@ print $hashRef->{"Helium"}."\n";     # exactly the same thing - this is very com
 
 my @anonArray = [ "anon1", "anon2"]; 				#this is an anonymous array
 
-my %anonHash = {"peter" => "burke", "simon" => "lane", "bruce" => "'Im definately not the god damn Batman' wayne"};
+my $anonHash = {"peter" => "burke", "bruce" => "wayne"};
 
 #print "anon array value 1: ".@anonArray[0]."\n anon hash value 1: ".%anonHash{"bruce"};			#the printed out value will be a reference to the anonymous data structure
 
