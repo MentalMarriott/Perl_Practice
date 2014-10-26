@@ -58,8 +58,6 @@ my @fingers = ("thumb", "ring", "little");
 my @parts   = (@bones, @fingers, ("foot"));	
 print "@parts\n";
 
-my $scaler = ("one", "two", "three");		#this will return "three the last element
-print $scaler."\n";				#scaler is three	
 
 my $scalerLengthOfArray = @nameArray;		#will store the length of @nameArray
 
@@ -79,7 +77,7 @@ print $$scalerRef."\n";				#if no ambiguious no need for brackets
 my @colours = ("green", "blue", "yellow");
 my $coloursRef = \@colours;			#also works with arrays
 
-print "Direct: ".@colours[0]."\n";				#direct access
+print "Direct: ".$colours[0]."\n";				#direct access
 print "Reference1: ".$$coloursRef[0]."\n";			#with reference
 print "Reference2: ".$coloursRef -> [0]."\n";			#same 
 
@@ -93,16 +91,9 @@ print $hashRef->{"Helium"}."\n";     # exactly the same thing - this is very com
 
 my @anonArray = [ "anon1", "anon2"]; 				#this is an anonymous array
 
-my %anonHash = {"peter" => "burke", "simon" => "lane", "bruce" => "'Im definately not the god damn Batman' wayne"}
+my %anonHash = {"peter" => "burke", "simon" => "lane", "bruce" => "'Im definately not the god damn Batman' wayne"};
 
 #print "anon array value 1: ".@anonArray[0]."\n anon hash value 1: ".%anonHash{"bruce"};			#the printed out value will be a reference to the anonymous data structure
-
-#this is a test to see why github isn't registering any changes
-my $value1 = 4;
-my $value2 = 5;
-my $answer = $value1 + $value2;
-
-print $answer . "\n"
 
 
 
